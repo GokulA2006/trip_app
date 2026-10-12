@@ -1,0 +1,648 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.trip {
+    height: 40px;
+    padding: 20px;
+    color: #222;
+    font-size: 30px;
+    margin-left: 30%;
+}
+
+.trip span {
+    background-color: rgb(95, 95, 192);
+    color: white;
+    padding: 10px;
+    border-radius: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trip span small {
+    font-size: x-small;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    background-color: white;
+    padding: 15px;
+}
+
+.contact {
+   align-items: center;
+   justify-content: center;
+    padding: 20px;
+    margin-left: 40%;
+    text-align: left;
+}
+
+
+.input {
+   padding: 20px;
+    width: 300px;
+    margin-left: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.input input {
+    width: 200px;
+    border-radius: 20px;
+    height: 30px;
+    text-align: center;
+}
+
+.navbar {
+    display: flex;
+    background-color: rgb(95, 95, 192);
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    gap: 20px;
+
+}
+
+.navbar ul li {
+    margin: 0;
+
+
+}
+
+.navbar ul li a {
+    display: block;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: whitesmoke;
+    padding: 10px;
+
+
+}
+/* .drop_down{
+    display: none;
+}
+.drop:hover .drop_down{
+    display: block;
+} */
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-right: 100px;
+
+
+}
+
+.buttons button {
+    padding: 8px 15px;
+    border: none;
+    background-color: yellow;
+    font-weight: 600;
+    font-size: 11px;
+
+}
+.img {
+    height: 600px;
+    position: relative;
+    background-image: url(img1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.paris {
+    position: absolute;
+    top: 150px;
+    right: 18%;
+    width: 350px;
+    height: 90px;
+    background-color: #3478b9;
+    color: white;
+    padding: 15px;
+
+}
+
+.paris h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.paris p {
+    font-size: 14px;
+    font-family: sans-serif;
+
+}
+
+.doller {
+    position: absolute;
+    top: 280px;
+    right: 24%;
+    width: 280px;
+    padding: 5px;
+    background-color: purple;
+    color: white;
+
+}
+
+.doller h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.doller h3 small {
+    font-size: 14px;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.book {
+    display: block;
+    width: 90%;
+    margin: -5px auto 0;
+    bottom: 105px;
+    background-color: #222;
+    color: white;
+    padding: 8px 15px;
+    font-size: 13px;
+    position: relative;
+}
+
+.booking {
+    background: whitesmoke;
+    color: black;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px;
+}
+
+.booking div {
+    flex: 1;
+    min-width: 0;
+}
+
+.booking p {
+    display: block;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.booking input {
+    width: 100%;
+    padding: 8px 3px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    font-size: 10px;
+}
+
+.booking select {
+    width: 100%;
+    padding: 8px 3px;
+    border: 1px solid #ddd;
+    background-color: #f8f8f8;
+    font-size: 10px;
+}
+
+.booking button {
+    padding: 10px 15px;
+    background-color: #e74747;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+
+
+.popular {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    margin-right: 15px;
+    
+}
+.popular h2 {
+    width: 100%;
+}
+.box1{
+     width: 30%;
+    background-color: white;
+    padding-bottom: 10px;
+}
+.box2{
+     width: 30%;
+    background-color: white;
+    padding-bottom: 10px;
+}
+.box3{
+     width: 30%;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.box1 img{
+    width: 100%;
+    height: 150px;
+}
+.box2 img{
+    width: 100%;
+    height: 150px;
+}
+.box3 img{
+    width: 100%;
+    height: 150px;
+}
+.box1 h4{
+    padding: 5px 10px;
+}
+.box2 h4{
+    padding: 5px 10px;
+}
+.box3 h4{
+    padding: 5px 10px;
+}
+.box1 p{
+    padding: 5px 10px;
+}
+.box2 p{
+    padding: 5px 10px;
+}
+.box3 p{
+    padding: 5px 10px;
+}
+.box1 button{
+    margin: 5px 10px;
+    padding: 8px 15px;
+    background-color: #386da8;
+    color: white;
+    border: none;
+}
+.box2 button{
+    margin: 5px 10px;
+    padding: 8px 15px;
+    background-color: #386da8;
+    color: white;
+    border: none;
+}
+.box3 button{
+    margin: 5px 10px;
+    padding: 8px 15px;
+    background-color: #386da8;
+    color: white;
+    border: none;
+}
+
+.hot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    width: 85%;
+    margin: 10px auto;
+    padding: 20px;
+}
+.hot h2 {
+    width: 100%;
+}
+
+.hot img {
+    width: 45%;
+    height: 250px;
+    gap: 10px;
+    object-fit: cover;
+}
+
+
+.blogs {
+    height: 50px;
+    width: 83%;
+    margin: 20px auto;
+    background-color: whitesmoke;
+    align-items: center;
+    text-align: start;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.details {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+.details h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: gray;
+}
+
+.details p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.details i {
+    margin-right: 8px;
+}
+
+.offer input {
+    padding: 10px;
+}
+
+.offer button {
+    padding: 10px;
+    background-color: #386da8;
+    color: white;
+    border: none;
+}
+/* TABLET MEDIA QUERY */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    header {
+        flex-wrap: wrap;
+    }
+
+    .trip {
+        margin-left: 10%;
+    }
+
+    .contact {
+        margin-left: 0;
+    }
+
+    .input {
+        width: 250px;
+        margin-left: 0;
+    }
+
+    .navbar ul {
+        margin-left: 0;
+        gap: 5px;
+    }
+
+    .buttons {
+        margin-right: 0;
+    }
+
+    .paris {
+        right: 5%;
+        width: 320px;
+    }
+
+    .doller {
+        right: 10%;
+    }
+
+    .booking {
+        flex-wrap: wrap;
+    }
+
+    .popular {
+        width: 95%;
+        margin: 20px auto;
+        gap: 15px;
+    }
+
+    .box1 {
+        width: 30%;
+    }
+
+    .box2 {
+        width: 30%;
+    }
+
+    .box3 {
+        width: 30%;
+    }
+
+    .hot {
+        width: 95%;
+    }
+
+    .blogs {
+        width: 90%;
+    }
+
+    .details {
+        height: auto;
+        flex-wrap: wrap;
+    }
+}
+
+
+/* MOBILE MEDIA QUERY */
+@media screen and (max-width: 767px) {
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .trip {
+        height: auto;
+        margin-left: 0;
+        padding: 10px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .contact {
+        margin-left: 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .input {
+        width: 100%;
+        margin-left: 0;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .input input {
+        width: 90%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 0;
+        width: 100%;
+    }
+
+    .navbar ul li {
+        text-align: center;
+    }
+
+    .buttons {
+        margin-right: 0;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .img {
+        height: 450px;
+    }
+
+    .paris {
+        top: 70px;
+        left: 5%;
+        right: auto;
+        width: 90%;
+        height: auto;
+    }
+
+    .doller {
+        top: 220px;
+        left: 10%;
+        right: auto;
+        width: 80%;
+    }
+
+    .book {
+        width: 95%;
+        bottom: 0;
+        margin: 0 auto;
+    }
+
+    .booking {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+    }
+
+    .booking div {
+        width: 100%;
+        flex: none;
+    }
+
+    .booking input {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .booking select {
+        width: 100%;
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .booking button {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .popular {
+        width: 100%;
+        margin: 20px auto;
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .box1 {
+        width: 100%;
+    }
+
+    .box2 {
+        width: 100%;
+    }
+
+    .box3 {
+        width: 100%;
+    }
+
+    .box1 img {
+        height: 200px;
+    }
+
+    .box2 img {
+        height: 200px;
+    }
+
+    .box3 img {
+        height: 200px;
+    }
+
+    .hot {
+        width: 100%;
+        padding: 15px;
+        gap: 15px;
+    }
+
+    .hot img {
+        width: 100%;
+        height: 220px;
+    }
+
+    .blogs {
+        width: 90%;
+        height: auto;
+        flex-wrap: wrap;
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .details {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 25px 20px;
+        gap: 25px;
+    }
+
+    .details h2 {
+        font-size: 22px;
+    }
+
+    .details p {
+        font-size: 14px;
+    }
+
+    .offer {
+        width: 100%;
+    }
+
+    .offer input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .offer button {
+        width: 100%;
+    }
+}
